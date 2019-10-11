@@ -71,4 +71,16 @@ function draw() {
     ellipse(width / 2, height / 2, volume2 )
   }
 
+
+
+  // TEXT
+push()
+  var myText = "Move your mouse and decide what the real you is!";
+
+ drawingContext.font = "bold 40px khand";
+ drawingContext.textAlign = "center";
+ fill(0);
+ text(myText,width/2,900);
+ pop()
+
 }
